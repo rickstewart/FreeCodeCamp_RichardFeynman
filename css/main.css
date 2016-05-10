@@ -1,0 +1,71 @@
+body {
+    background-color: #f9f9f9;
+    font-family: 'Ek Mukta', sans-serif;
+    height: 100%;
+}
+
+#main-container {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 80px;
+}
+
+#name {
+    margin-left: 10px;
+    font-family: 'Ek Mukta', sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+#main-container ul {
+    margin-top: 30px;
+    text-align: left;
+    line-height: 180%;
+
+}
+#main-container img {
+    margin: 30px 0;
+    border: 2px solid #b8bcbc;
+}
+
+#main-container p {
+    font-family: 'Philosopher', sans-serif;
+    margin-bottom: 40px;
+}
+
+#main-container li {
+     display: block;
+ }
+
+#main-container li:before {
+    content: "\e087";
+    font-family: 'Glyphicons Halflings';
+    font-size: 12px;
+    float: left;
+    margin-top: -1px;
+    margin-left: -17px;
+    color: #000000;
+}
+
+#publications {
+    width: 100%;
+    margin: 30px 0;
+}
+
+#publications h2 {
+    text-align: left;
+    padding: 10px;
+}
+
+#publications img {
+    float: left;
+    margin: 0 30px 50px 10px;
+}
+
+.pubs {
+    float: right;
+    text-align: left;
+    margin: 30px 20px;
+    position: absolute;
+    top: 60px;
+}
